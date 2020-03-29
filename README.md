@@ -1,4 +1,4 @@
-# Matploylib examples
+# Algorithms & Data Structure
 [![License](https://img.shields.io/github/license/salalba/matplotlib)](https://github.com/SalAlba/matplotlib/blob/master/LICENSE)
 
 In this github repo, I use python 3.7.* and Java 8 to build different type of data data Structure  and algorithms, feel free to ask me, add new issue and fork 😀.
@@ -45,12 +45,24 @@ A step by step series of examples that tell you how to get a development env run
 
 ### Java ☕ 
 
-TODO ...
+1. how to run java program from terminal/console [[src]](https://www.geeksforgeeks.org/run-java-class-file-different-directory/)
 
-## Topics
+``` bash
+
+# compile the program
+$ javac path/to/ClassName.java
+
+# run compiled program
+$ java ClassName
+
+```
 
 
-### Algorithm complexity
+
+# Topics
+
+
+## Algorithm complexity
 Algorithmic complexity (code complexity) it is how  particular algorithm performs, fast or slow. the complexity is defined as numeric function T(n). want to measure the time taken by the algorithm without dive into the implementation [[src]](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Algorithmic%20Complexity/complexity.html)
 
 In Algorithmic Complexity we take care of this three measurement. Big-O, Sigma, Theta. [[1.1.]](#Resources)
@@ -64,6 +76,23 @@ In Algorithmic Complexity we take care of this three measurement. Big-O, Sigma, 
 **``TODO``**
 1. How to measure the complexity?
 
+
+## Data strucure
+
+
+### Arrays [[Python]](#) | [[Java]](#)
+
+1. search O(n).
+2. access O(1).
+3. insert O(n).
+4. delete O(n).
+
+
+If we want access to value super fast, so go with array that why use, but if you want be faster in adding new values, editing value, or removing in this case arrays is not the best solutios. The dark side ☠️ of array, when we create the array we need to specfin the length of array at the beginning, where it reserve a fixed place in memory and could be not used, it's west of momeroy location.
+
+## Algorithm
+
+TODO ...
 
 
 ## Notes / Things you should to know
